@@ -18,6 +18,26 @@ body {
   text-align: center;
 }
 
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #333;
+}
+
 h1 {
   margin-top: 1.5rem;
   color: #fff;
