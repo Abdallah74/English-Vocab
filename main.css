@@ -8,6 +8,10 @@
   -o-box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -32,6 +36,9 @@ body {
   cursor: pointer;
   padding: 10px;
   border-radius: 4px;
+  transform: rotate(90deg);
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 #scrollToTopBtn:hover {
